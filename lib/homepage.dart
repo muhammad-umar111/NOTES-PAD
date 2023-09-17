@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_db/Box.dart';
 import 'package:hive_db/NotesModel.dart';
 import 'package:hive_flutter/adapters.dart';
@@ -11,7 +10,7 @@ class MyHomePage extends StatefulWidget {
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> { 
  late TextEditingController topicController;
  late TextEditingController descriptionController;
  @override
